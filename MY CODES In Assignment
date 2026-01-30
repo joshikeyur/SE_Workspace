@@ -1,0 +1,97 @@
+//the percentage calculator
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int sub1=85;
+    int sub2=95;
+    int sub3=39;
+    int sub4=55;
+    int sub5=95;
+    int total= 500;
+    int sum = sub1+sub2+sub3+sub4+sub5;
+     float percent = sum*100/total;
+    printf("Result : %f",percent);
+    
+    return 0 ;
+    
+}
+
+   //THE SECOND CODE//
+
+//instest rate founder
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int MA = 100000; /*Amount is in IN Rupees*/
+    float rate = 8; /*instrst rTE IN PERCENTAGE*/
+    int time = 1 ;  /* time period is in year*/
+    
+    float intrest  = MA*rate*time/100 ; 
+    
+    
+    printf ("that is your intrest %f",intrest);
+}
+
+
+// THE THIRD CODE //
+*/ the billing system */
+#include <stdio.h>
+#include <conio.h>
+
+ int main ()
+ {
+     int pizza;
+     int coffee;
+     int burger;
+     int total=0;
+      
+      printf ("Enter price for pizza");
+      scanf ("%d",&pizza);
+        total += pizza;
+        
+        printf("enter price for burger");
+        scanf ("%d",&burger);
+         total += burger;
+         
+         printf ("enter your price for coffee");
+         scanf("%d",&coffee);
+         total+= coffee;
+         
+         printf("%d",total);
+         
+         return 0 ;
+
+// FOURTH CODE //
+
+#include <stdio.h>
+#include <conio.h>
+
+ int main ()
+ {
+     int sub1;
+     int sub2;
+     int sub3;
+     int sub4;
+     int total= 400;
+     
+     
+     printf ("mark for sub1:  ");
+     scanf ("%d", &sub1);
+      
+      printf ("\n mark for sub2 : ");
+      scanf ("%d", &sub2);
+       
+     printf ("\n mark for sub3 : ");
+      scanf ("%d", &sub3);
+      
+       printf ("\n mark for sub4 : ");
+      scanf ("%d", &sub4);
+      
+      int sum = sub1+sub2+sub3+sub4 ; 
+        double result = (sum*100/total);
+        printf ("\n this is your final result %lf",result);
+      return 0 ;
+      
+ }

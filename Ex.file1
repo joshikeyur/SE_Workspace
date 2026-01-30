@@ -1,0 +1,60 @@
+#include <stdio.h>
+int main() 
+{
+printf("Hello World \n");
+
+printf("Hellow new \n");
+
+printf("Hellow new \n");
+
+printf("Hellow new \n");
+
+printf("Hellow new \n");
+
+int age = 25;
+int a = 30;
+int b = 15;
+
+printf ("Age is just a number %d" ,age);
+printf ("Age is Multiples %d", age*age);
+printf (" is instant print %d",a*b);
+return 0 ;
+}
+
+
+
+
+//the percentage calculator
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int sub1=85;
+    int sub2=95;
+    int sub3=39;
+    int sub4=55;
+    int sub5=95;
+    int total= 500;
+    int sum = sub1+sub2+sub3+sub4+sub5;
+     float percent = sum*100/total;
+    printf("Result : %f",percent);
+    
+    return 0 ;
+    
+}
+
+
+//instest rate founder
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int MA = 100000; /*Amount is in IN Rupees*/
+    float rate = 8; /*instrst rTE IN PERCENTAGE*/
+    int time = 1 ;  /* time period is in year*/
+    
+    float intrest  = MA*rate*time/100 ; 
+    
+    
+    printf ("that is your intrest %f",intrest);
+}
