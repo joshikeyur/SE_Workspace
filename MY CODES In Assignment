@@ -152,7 +152,9 @@ else
        {
         printf("\n \t BATTER LUCK NEXT TIME");   
        }
+       else {
+           printf("\n \t Congratulations You craked it.");
+       }
       return 0;
       }
-       
-/*The code of automatic pass fail result is ENDS*/
+/*The code of automatic pass fail result ENDS */
