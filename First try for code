@@ -11,6 +11,7 @@ printf("Hellow new \n");
 
 printf("Hellow new \n");
 
+// code for age counter //
 int age = 25;
 int a = 30;
 int b = 15;
@@ -20,7 +21,6 @@ printf ("Age is Multiples %d", age*age);
 printf (" is instant print %d",a*b);
 return 0 ;
 }
-
 
 
 
@@ -44,6 +44,9 @@ int main()
 }
 
 
+
+
+
 //instest rate founder
 #include <stdio.h>
 #include<conio.h>
@@ -57,4 +60,5 @@ int main()
     
     
     printf ("that is your intrest %f",intrest);
+return 0 ; 
 }
