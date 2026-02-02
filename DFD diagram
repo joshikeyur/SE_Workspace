@@ -1,9 +1,0 @@
-graph TD
-    P[Patient] -- Patient Details --> HMS((Hospital Management System))
-    D[Doctor] -- Diagnosis & Prescription --> HMS
-    A[Admin] -- Staff & System Mgmt --> HMS
-    
-    HMS -- Appointment Slip --> P
-    HMS -- Bill/Report --> P
-    HMS -- Patient Records --> D
-    HMS -- Reports & Stats --> A
