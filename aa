@@ -1,0 +1,209 @@
+//the percentage calculator
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int sub1=85;
+    int sub2=95;
+    int sub3=39;
+    int sub4=55;
+    int sub5=95;
+    int total= 500;
+    int sum = sub1+sub2+sub3+sub4+sub5;
+     float percent = sum*100/total;
+    printf("Result : %f",percent);
+    
+    return 0 ;
+    
+}
+
+   //THE SECOND CODE//
+
+//instest rate founder
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int MA = 100000; /*Amount is in IN Rupees*/
+    float rate = 8; /*instrst rTE IN PERCENTAGE*/
+    int time = 1 ;  /* time period is in year*/
+    
+    float intrest  = MA*rate*time/100 ; 
+    
+    
+    printf ("that is your intrest %f",intrest);
+}
+
+
+// THE THIRD CODE //
+*/ the billing system */
+#include <stdio.h>
+#include <conio.h>
+
+ int main ()
+ {
+     int pizza;
+     int coffee;
+     int burger;
+     int total=0;
+      
+      printf ("Enter price for pizza");
+      scanf ("%d",&pizza);
+        total += pizza;
+        
+        printf("enter price for burger");
+        scanf ("%d",&burger);
+         total += burger;
+         
+         printf ("enter your price for coffee");
+         scanf("%d",&coffee);
+         total+= coffee;
+         
+         printf("%d",total);
+         
+         return 0 ;
+
+// FOURTH CODE //
+
+#include <stdio.h>
+#include <conio.h>
+
+ int main ()
+ {
+     int sub1;
+     int sub2;
+     int sub3;
+     int sub4;
+     int total= 400;
+     
+     
+     printf ("mark for sub1:  ");
+     scanf ("%d", &sub1);
+      
+      printf ("\n mark for sub2 : ");
+      scanf ("%d", &sub2);
+       
+     printf ("\n mark for sub3 : ");
+      scanf ("%d", &sub3);
+      
+       printf ("\n mark for sub4 : ");
+      scanf ("%d", &sub4);
+      
+      int sum = sub1+sub2+sub3+sub4 ; 
+        double result = (sum*100/total);
+        printf ("\n this is your final result %lf",result);
+      return 0 ;
+      
+ }
+
+
+/* The Code for if else */
+
+#include <stdio.h>
+#include <conio.h>
+int main() 
+{
+    int age ;
+     
+     printf("enter your age  ");
+     scanf ("%d" , &age);
+      
+      if(age>=18)
+ {
+         printf("your eligable for next vote");
+         
+}
+else
+{
+    printf("Your not eligible for vote");
+};
+   return 0;
+
+}
+/*The code ends for If Else*/
+
+
+/*The code of automatic pass fail result*/
+#include<stdio.h>
+#include <conio.h>
+    int  main(){
+       
+       int sub1,sub2,sub3,sub4,sub5;
+       
+       printf("Enter marks for sub1  ");
+       scanf("%d" ,&sub1);
+       
+        printf("Enter marks for sub2  ");
+       scanf("%d", &sub2);
+       
+        printf("Enter marks for sub3  ");
+       scanf("%d" ,&sub3);
+       
+        printf("Enter marks for sub4  ");
+       scanf("%d", &sub4);
+       
+        printf("Enter marks for sub5  ");
+       scanf("%d", &sub5);
+      int  sum = sub1+sub2+sub3+sub4+sub5;
+        float result = sum/5;
+      
+        printf ("Tis is result  %f", result);
+       if(result<33)
+       {
+        printf("\n \t BATTER LUCK NEXT TIME");   
+       }
+       else {
+           printf("\n \t Congratulations You craked it.");
+       }
+      return 0;
+      }
+/*The code of automatic pass fail result ENDS */
+
+
+
+
+//Age and gender with if ealse //
+
+#include <stdio.h>
+#include <conio.h>
+
+ int main() 
+ {
+     int Age ;
+     int boy ;
+     int girls ;
+      printf ("Enter your Age  ");
+      scanf ("%d", &Age);
+      printf ("Enter your Gender ");
+      scanf ("%d", boy);
+      scanf ("%d", girls);
+      
+      if (Age >=18 && boy)
+      {
+          printf ("\n Adult");
+          printf ("\n You can vote");
+          printf ("\n You can drive");
+          printf ("\n you can marry");
+          
+      }
+      else if (Age >=18 && girls)
+      {
+       printf ("\n ypu can vote");
+       printf ("\n you can drive");
+       printf ("\n you can marry");
+
+      }
+      else if  (Age < 18 && Age > 13 )
+      {
+         printf ("\n Teenager");
+         printf ("\n your not eligible for vote ");
+         printf ("\n your not eligible for Drive ");
+          printf ("\n your not eligible for marry ");
+          printf ("\n do your studdy! ");
+      }
+      else { printf ("\n Child \n Little Baby!");
+          
+      };
+      
+      return 0;
+ }
