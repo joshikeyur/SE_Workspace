@@ -158,3 +158,52 @@ else
       return 0;
       }
 /*The code of automatic pass fail result ENDS */
+
+
+
+
+//Age and gender with if ealse //
+
+#include <stdio.h>
+#include <conio.h>
+
+ int main() 
+ {
+     int Age ;
+     int boy ;
+     int girls ;
+      printf ("Enter your Age  ");
+      scanf ("%d", &Age);
+      printf ("Enter your Gender ");
+      scanf ("%d", boy);
+      scanf ("%d", girls);
+      
+      if (Age >=18 && boy)
+      {
+          printf ("\n Adult");
+          printf ("\n You can vote");
+          printf ("\n You can drive");
+          printf ("\n you can marry");
+          
+      }
+      else if (Age >=18 && girls)
+      {
+       printf ("\n ypu can vote");
+       printf ("\n you can drive");
+       printf ("\n you can marry");
+
+      }
+      else if  (Age < 18 && Age > 13 )
+      {
+         printf ("\n Teenager");
+         printf ("\n your not eligible for vote ");
+         printf ("\n your not eligible for Drive ");
+          printf ("\n your not eligible for marry ");
+          printf ("\n do your studdy! ");
+      }
+      else { printf ("\n Child \n Little Baby!");
+          
+      };
+      
+      return 0;
+ }
