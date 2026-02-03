@@ -1,3 +1,6 @@
+```c
+
+
 //the percentage calculator
 #include <stdio.h>
 #include<conio.h>
