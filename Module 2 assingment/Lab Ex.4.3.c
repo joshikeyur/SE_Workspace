@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main() {
     float a, b, h;
@@ -24,3 +25,4 @@ int main() {
 
     return 0;
 }
+
