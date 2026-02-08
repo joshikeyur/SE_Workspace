@@ -27,7 +27,7 @@ I enjoy building logical programs and improving my problem-solving skills.
 
 ---
 
-"A dedicated professional transitioning from a non-IT background into the world of Computer Applications (BCA). With a solid foundation in managing business operations, accounting, and customer data, I bring a unique perspective that blends practical business logic with technical ambition.
+"A dedicated professional transitioning from a non-IT background into the world of Computer Applications. With a solid foundation in managing business operations, accounting, and customer data, I bring a unique perspective that blends practical business logic with technical ambition.
 
 I am a firm believer in discipline and continuous learning, values I carry from my personal practices into my professional life. Currently, I am sharpening my technical skills and looking to contribute to a professional office environment in Ahmedabad, where I can help businesses grow through data-driven solutions and technical efficiency.
 
